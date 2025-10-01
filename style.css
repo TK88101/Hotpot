@@ -196,4 +196,13 @@ footer {
         align-items: center;
         gap: 0.5em;
     }
+    .nav-links {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .nav-links a {
+        font-size: 1.1rem;
+    }
 }
