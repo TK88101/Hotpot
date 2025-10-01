@@ -185,8 +185,11 @@ footer {
         font-size: 1.05rem;
         padding: 0.4em 0.3em;
         max-width: 98vw;
-        word-break: break-all;
-        white-space: pre-line;
+        /* word-break: break-all; */
+        /* white-space: pre-line; */
+        white-space: nowrap;
+        overflow-x: auto;
+        text-overflow: ellipsis;
     }
     .navbar {
         flex-direction: column;
